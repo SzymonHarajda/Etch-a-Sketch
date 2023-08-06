@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #e3d5ca;
+    box-sizing: border-box;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+
+#grid{
+    border: 2px solid;
+    position: relative;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    display: flex;
+    width: 37.5rem;
+    height: 37.5rem;
+    background-color: #edede9;
+    margin: auto;
+    filter: drop-shadow(2px 5px 5px #5c5c5c);
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+    gap: 3rem;
+    font-size: 20px;
+    margin: 3rem;
+
+}
